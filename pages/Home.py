@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier  # Import your model class here
 
 # Load your trained model
 # Replace 'your_model.pkl' with the actual path to your saved model file
@@ -52,8 +51,8 @@ def main():
 
     # Make prediction when the user clicks the button
     if st.sidebar.button('Predict'):
-        prediction = make_prediction(pd.DataFrame([user_input]))  # Convert user_input to a DataFrame
-        st.sidebar.write('Prediction:', prediction)
+        # prediction = make_prediction(pd.DataFrame([user_input]))  # Convert user_input to a DataFrame
+        st.sidebar.write('Prediction:', 'Coming Soon! 😎😎🔥')
 
 if __name__ == "__main__":
     main()
