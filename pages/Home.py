@@ -3,15 +3,12 @@ import pandas as pd
 
 # Load your trained model
 # Replace 'your_model.pkl' with the actual path to your saved model file
-model = RandomForestClassifier()  # Replace with your actual model class
+# model = RandomForestClassifier()  # Replace with your actual model class
 # model.load_model('your_model.pkl')
 
 # Function to make predictions
 def make_prediction(user_input):
-    # Preprocess user input if needed
-    # Make predictions using the loaded model
-    prediction = model.predict(user_input)
-    return prediction
+    pass
 
 # Streamlit App
 def main():
